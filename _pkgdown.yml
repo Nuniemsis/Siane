@@ -1,0 +1,8 @@
+template:
+  package: rostemplate
+
+authors:
+  Carlos J. Gil Bellosta:
+    href: https://www.datanalytics.com/
+  Nuno Carvalho:
+    href: https://github.com/Nuniemsis

@@ -6,4 +6,6 @@ Images
 .gitignore
 RData
 Siane.Rproj
-
+^\.github$
+^docs$
+^_pkgdown\.yml$

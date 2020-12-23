@@ -15,7 +15,7 @@ Authors@R: c(person("Carlos J. Gil Bellosta",
   email = "cgb@datanalytics.com", role = c("aut")),
   person("Nuno", "Carvalho", role = c("cre", "aut"),
   email = "nunocarvalhodossantos@gmail.com"))
-RoxygenNote: 6.0.1
+RoxygenNote: 7.1.1
 Suggests: knitr,
   rmarkdown
 VignetteBuilder: knitr

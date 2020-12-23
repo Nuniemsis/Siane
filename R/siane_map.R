@@ -30,7 +30,7 @@
 #' The default value for the year is the latest year in which the maps are available. \cr
 #' - The \code{scale} of the maps can be 1:3000000 or 1:6500000. The corresponding values for the \code{scale} variable are "3m" and "6m". \cr
 #' The default value for the municipalities maps is \code{scale <- "3m"} . The default value for the other maps is \code{scale <- "6m"} \cr
-#' #' - The \code{peninsula} variable can take the values "far", "close" and "none".
+#' - The \code{peninsula} variable can take the values "far", "close" and "none".
 #' @export
 #'
 #'

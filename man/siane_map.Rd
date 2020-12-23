@@ -26,18 +26,18 @@ A S4 object specified by the user
 A function that returns a S4 object(map) of a Spain specific map
 }
 \details{
-- \code{obj} should be a string of the path to the maps. It should contain the subfolders \bold{SIANE_CARTO_BASE_S_3M} and \bold{SIANE_CARTO_BASE_S_6M5}. \cr 
+- \code{obj} should be a string of the path to the maps. It should contain the subfolders \bold{SIANE_CARTO_BASE_S_3M} and \bold{SIANE_CARTO_BASE_S_6M5}. \cr
 - \code{level} can take the values of "Provincias","Municipios" or "Comunidades". The default value \cr is \code{level <- "Provincias"} \cr
 - \code{canarias} set to TRUE returns the Canarias map. \code{canarias} set to FALSE returns to the Peninsulae maps. \cr
 - The \code{year} variable should be numeric. If the map is not available for that year, the loaded map will be the latest available map. \cr
-The default value for the year is the latest year in which the maps are available. \cr 
+The default value for the year is the latest year in which the maps are available. \cr
 - The \code{scale} of the maps can be 1:3000000 or 1:6500000. The corresponding values for the \code{scale} variable are "3m" and "6m". \cr
 The default value for the municipalities maps is \code{scale <- "3m"} . The default value for the other maps is \code{scale <- "6m"} \cr
-#' - The \code{peninsula} variable can take the values "far", "close" and "none".
+- The \code{peninsula} variable can take the values "far", "close" and "none".
 }
 \examples{
 \dontrun{
 obj <- register_siane("/home/ncarvalho/Downloads/") # Registering a sample of Siane
-shp <- siane_map(obj = obj, level = "Municipios", canarias = FALSE, peninsula = "close") 
+shp <- siane_map(obj, level = "Municipios", canarias = FALSE, peninsula = "close") 
 plot(shp) # Plot the map}
 }
